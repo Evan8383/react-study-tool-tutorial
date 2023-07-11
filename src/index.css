@@ -47,3 +47,9 @@
   color: #91645B;
   margin-bottom: 8px;
 }
+.note-preview a {
+  text-decoration: none;
+}
+.note-details div{
+  margin: 20px 0;
+}
