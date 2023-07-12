@@ -12,11 +12,14 @@ const NoteDetails = () => {
             {isPending && <div>Loading...</div>}
             {notes && (
                 <article>
-                    <h2>{notes.title}</h2>
-                    <div>{notes.body}</div>
+                    <div className="note-header">
+                        <h2>{notes.title}</h2>
+                        <DeleteNote />
+                    </div>
+                    <div className="note-content">{notes.body}</div>
                 </article>
             )}
-            <DeleteNote />
+            
         </div>
      );
 }

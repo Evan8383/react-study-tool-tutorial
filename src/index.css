@@ -40,6 +40,9 @@
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
   border-radius: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .note-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
@@ -54,6 +57,14 @@
 }
 .note-details div{
   margin: 20px 0;
+}
+.note-details .note-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.note-details .note-content {
+  overflow-wrap: break-word;
 }
 
 /*create new blog form*/
@@ -91,6 +102,23 @@
 }
 .create button:hover {
   box-shadow: inset 100px 0 0 0  #10242C;
+  color: #fff;
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+}
+/*Delete note button */
+.delete {
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-size: 15px;
+  background: #fff;
+  color: #10242C;
+}
+.delete:hover {
+  box-shadow: inset 125px 0 0 0  #10242C;
   color: #fff;
   -webkit-font-smoothing: subpixel-antialiased;
   backface-visibility: hidden;
