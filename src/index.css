@@ -24,6 +24,7 @@
   text-decoration: none;
   padding: 6px;
   transition: all 300ms ease-in-out;
+  border-radius: 8px;
 }
 .navbar a:hover {
   color: white;
@@ -38,6 +39,7 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  border-radius: 8px;
 }
 .note-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
@@ -52,4 +54,73 @@
 }
 .note-details div{
   margin: 20px 0;
+}
+
+/*create new blog form*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 8px;
+}
+.create button {
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-size: 18px;
+  background: #fff;
+  color: #10242C;
+}
+.create button:hover {
+  box-shadow: inset 100px 0 0 0  #10242C;
+  color: #fff;
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+}
+
+/*Not Found Page*/
+.not-found{
+  text-align: center;
+}
+.not-found h2 {
+  font-size: 50px;
+  padding: 10px auto;
+}
+.not-found p {
+  margin: 10px auto;
+}
+.not-found a {
+  text-decoration: none;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-size: 18px;
+  background: #fff;
+  color: #10242C;
+}
+.not-found a:hover{
+  box-shadow: inset 130px 0 0 0  #10242C;
+  color: #fff;
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
 }

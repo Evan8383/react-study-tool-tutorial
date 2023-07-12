@@ -1,3 +1,4 @@
+import DeleteNote from './DeleteNote';
 import { Link } from 'react-router-dom'
 
 const NoteList = ({ notes, title }) => {

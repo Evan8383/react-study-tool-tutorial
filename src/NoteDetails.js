@@ -1,4 +1,5 @@
 import useFetch from "./useFetch";
+import DeleteNote from "./DeleteNote";
 import { useParams } from "react-router";
 
 const NoteDetails = () => {
@@ -15,6 +16,7 @@ const NoteDetails = () => {
                     <div>{notes.body}</div>
                 </article>
             )}
+            <DeleteNote />
         </div>
      );
 }

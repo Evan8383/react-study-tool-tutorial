@@ -1,28 +1,14 @@
 {
-    "notes": [
-        {
-            "title": "HTML",
-            "body": "JSX is better than HTML",
-            "author": "Evan",
-            "id": 1
-        },
-        {
-            "title": "CSS",
-            "body": "CSS notes...",
-            "author": "Evan",
-            "id": 2
-        },
-        {
-            "title": "Git",
-            "body": "Git notes...",
-            "author": "Evan",
-            "id": 3
-        },
-        {
-            "title": "JavaScript",
-            "body": "JS notes...",
-            "author": "Evan",
-            "id": 4
-        }
-    ]
+  "notes": [
+    {
+      "title": "new",
+      "body": "new",
+      "id": 5
+    },
+    {
+      "title": "HTML",
+      "body": "Test notes",
+      "id": 6
+    }
+  ]
 }
